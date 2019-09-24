@@ -1,0 +1,66 @@
+- RadioButton, CheckBox, Switch, ToggleButton
+-- setOnCheckedChange
+
+- Glide kütüphanesi ile ImageView Kullanýmý
+-- resmi web sayfasý üzerinden yükleme
+-- AndroidManifest.xml dosyasýnda internet baðlantýsý izni saðlanmasý
+-- Glide kütüphanesinin build.gradle (Module app) içerisine dahil edilmesi
+
+- Butona týklama yöntemleri
+-- setOnClickListener
+-- xml tarafýnda butona týklama olayýnýn bir metoda baðlanmasý
+--- public void butonaTikla(View view){}
+-- implement View.onClickListener
+--- onClick() metodu
+--- buton.setOnClickListener(this)
+
+- LogCat yapýsý
+
+-----------------
+
+Activity Lifecycle (Activity yaþam döngüsü)
+
+- onCreate
+-- activity sýnýfýnýn üretilme zamanýný temsil eder.
+-- nesne tanýmlama (findViewById), nesnelere varsayýlan deðer atama (int sayi = 1)), nesnelerin metotlarý (listenerlar/olaylar) oncreate zamanýnda üretilir.
+
+- onDestroy
+-- activity sýnýfýnýn kapatýlmadan önceki yapýlacaklarýn tanýmlanmasý gereken metotunu temsil eder.
+
+- onStart
+-- onCreate metodundan sonra çalýþýr.
+-- Activity sýnýfýnýn artýk çalýþýr durumda olduðu zamaný ifade eden metottur.
+
+- onStop
+-- Activity sýnýfýnýn durdurulma zamanýný temsil eder.
+-- Kapatýlmadan önce onStop metodu çalýþýr.
+
+- onRestart
+-- Activity sýnýfýnýn tekrar üretilme zamanýný temsil eder.
+
+- onPause
+-- Activity sýnýfýnýn durdurulma, alta alýnma zamanýnda çalýþan metottur.
+
+- onResume
+-- Activity sýnýfýnýn çalýþmaya devam ettiðini belirten/ temsil eden bir metottur.
+
+
+
+- TextView, ImageView, ScrollView, WebView, VideoView
+
+
+- ScrollView nesnesi kullanýmý
+-- Sayfaya sýðmayan nesnelerin, scroll edilerek yine sayfa içerisinde görüntülenebilmesine olanak tanýyan nesnedir.
+-- ScrollView nesnesinin içerisine sadece 1 adet alt eleman ekleyebiliriz.
+-- Nesneleri yatay oranda scroll eder.
+-- ScrollView'in alt elemaný sadece linear layout olabilir.
+
+- HorizontalScrollView nesnesi
+-- nesneleri en oranýnda scroll edebiliriz.
+
+
+
+
+
+
+

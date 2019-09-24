@@ -1,0 +1,90 @@
+Resources Kavramları
+
+- R sınıfı (Resources - Uygulama Kaynakları)
+
+
+res klasörü
+(res klasörüne sağ tıkla, New, Android Resources Directory
+- anim
+-- Nesne animasyonlarının xml dosyalarını barındırır.
+-- xml dosyası
+- animator
+-- xml dosyası
+- color
+-- Uygulama içerisinde renk dosyalarını üretebildiğim klasör.
+-- Renklere ait değişkenlerin, xml dosyasında saklanmasını sağlar.
+-- xml dosyası
+
+- drawable
+-- .png, .jpg, .xml çizim dosyalarını saklayabilir.
+-- Resim dosyalarını saklayabildiğimiz özel klasördür.
+
+- font
+-- fontların tanımlanabildiği klasör
+-- xml dosyası
+
+- interpolator
+-- 
+
+- layout
+-- Uygulama sayfalarının arayüzlerinin tasarlanıp, xml dosyaları içerisinde
+saklanabildiği klasördür. 
+-- xml dosyası
+
+- menu
+-- menü dosyaları bu alanda saklanır.
+-- xml dosyası
+
+- mipmap
+-- Uygulama iconlarının saklandığı özel bir klasördür.
+
+- navigation
+-- xml dosyası
+
+- raw
+-- ses ve müzik, video (.mp3,mp4) dosyalarını saklayabildiğimiz klasör.
+ 
+- transition
+-- Sayfa geçiş animasyonlarının tanımlandığı klasördür.
+-- xml dosyası
+
+- values
+-- colors.xml
+--- Uygulamaya ait renk tanımlarının xml değişkenler içerisinde saklanması için
+kullanılır.
+-- strings.xml
+--- Uygulama içerisinde kullanılan tüm string ifadelerinin değişken olarak 
+saklanabildiği özel bir dosyadır.
+
+-- styles.xml
+--- Uygulama temalarının tanımlandığı, optimize edilebildiği bir dosyadır.
+
+-- xml dosyası
+
+- xml
+-- xml dosyalarının ayrıca tanımlanabildiği bir klasördür.
+
+
+
+
+Java Sınıfı üzerinde;
+
+R.anim
+R.attr
+R.bool
+R.color
+R.dimen
+R.drawable
+R.id
+R.integer
+R.layout
+R.mipmap
+R.string
+R.style
+R.styleable
+
+
+R.string.app_name
+R.layout.activity_main
+R.color.colorAccent
+

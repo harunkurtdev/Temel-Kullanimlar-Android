@@ -1,0 +1,80 @@
+Java Layout Yapýlarý
+- FlowLayout
+- BorderLayout
+- CardLayout
+- BoxLayout
+- GridLayout
+- GridBagLayout
+- GroupLayout
+- SpringLayout
+
+Android Layout Yapýlarý
+- Constraint Layout (Default)
+-- Nesneleri sayfanýn 4 köþesine baðlayýp hizalý þekilde gösterebiliriz.
+-- Nesneler hizalanmazsa, varsayýlan olarak sol köþede gösterilir.
+-- Nesneler toplu þekilde hizalandýrýlabilir(baðlanabilir).
+-- Ekran boyutuna göre hizalama olanaðý tanýr.
+-- Nesneler topluca seçilip taþýnabilir.
+
+- Linear Layout
+-- Nesnelerin alt alta ve yan yana eklenebilmesine olanak tanýyan layout türüdür.
+-- ScrollView nesnesinin child(alt elemaný)'ý olarak kullanýlýr.
+-- Nesneleri birimlere bölüp ekrana sýðdýrabiliriz. (weightSum)
+-- Linear Layout'un orientation özelliði sayesinde yatay yada dikey görünüm oluþturabiliriz.
+--- Yatay görünüm için: android:orientation="horizontal"
+--- Dikey görünüm için: android:orientation="vertical"
+-- weight ve weightSum özellikleri bulunur.
+
+
+- Relative Layout
+->>> Nesneleri sürükle býrak yaparak istediðimiz yerde gösterebiliriz.
+-- Nesneleri, iliþkili þekilde taþýyabiliriz.
+-- Nesneyi, baþka bir nesneye göre hizalayabiliriz.
+-- Nesneleri, seçip topluca taþýyabiliriz. (CTRL)
+
+- CoordinatorLayout
+- FrameLayout
+- TableLayout
+
+
+
+
+Deðiþken kurallarý
+
+- Sayý ile baþlayamaz
+- Özel karakter içeremez
+- boþluk içeremez
+- Büyük harf ile baþlayamaz.
+- Türkçe karakter içermemelidir. (çöðüÝþ)
+
+Hatalar:
+
+Btn1   --> btn1
+1btn   --> btn1
+btn 1  --> btn1
+btn%1  --> btn1
+þerif  --> serif
+
+
+-------
+
+Deðiþken isimleri ve metot(fonksiyon) adlarý küçük harf ile baþlamalýdýr.
+
+BenimAdimSerif ---> benimAdimSerif
+
+--
+
+Class (Sýnýf) isimleri özellikle büyük harf ile baþlatýlmalýdýr.
+Activity1 extends Activity
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+GÖRSEL ÖÐELER
+
+WebView
+ImageView
+TextView
+EditText
+Button
+CheckBox
+RadioButton
+Switch
+ToggleButton
+ListView			--> ArrayAdapter, BaseAdapter
+GridView			--> ArrayAdapter, BaseAdapter
+
+
+VideoView
+
+Spinner			--> ArrayAdapter
+AutoCompleteTextView	--> ArrayAdapter
+MultiAutoCompleteTextView      --> ArrayAdapter
+
+
+
+

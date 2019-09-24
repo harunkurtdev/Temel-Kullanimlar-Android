@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="#388E3C" />
+
+    <EditText
+        android:id="@+id/etPromptText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Write your message"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnPromptOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPromptText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="9dp"
+        android:text="@android:string/ok" />
+
+</RelativeLayout>

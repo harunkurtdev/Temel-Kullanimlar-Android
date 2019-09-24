@@ -1,0 +1,16 @@
+BUTONA TIKLAMA OLAYLARI
+
+- setOnClickListener();
+
+- XML tarafýnda onClick()
+
+- Listener üreterek butona týklama
+
+BUTONA UZUN BASMA, BUTONA DOKUNMA OLAYLARI
+
+GLÝDE KÜTÜPHANESÝ KULLANIMI
+- Bir resmi web üzerinden indirip, imageview nesnesi üzerinde gösteren kütüphanedir.
+
+- Gradle Script'i aç> build.gradle (Module app) > dependencies içerisine > implementation 'com.github.bumptech.glide:glide:4.9.0' ekle.
+Sað üstte bulunan Sync Now'a týklayýp kütüphaneyi indirip, projemize dahil ettik.
+
